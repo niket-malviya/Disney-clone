@@ -1,12 +1,16 @@
-// import React from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import {useAuth0} from '@auth0/auth0-react';
+
+
+
+
+//import {useAuth0} from '@auth0/auth0-react';
 // import firebase from 'firebase/app';
 // import { auth,provider} from "firebase";
 const Header=(props)=>{
     
  
-        const { loginWithRedirect } = useAuth0();
+        // const { loginWithRedirect } = useAuth0();
       
         // const handleAuth = () =>{
         //     auth 
@@ -54,7 +58,7 @@ const Header=(props)=>{
                 <span>SERIES</span>
                 </a>
             </NavMenu>
-            <Login onClick={() => loginWithRedirect()}>Login</Login>
+            <Login /*onClick={/() => loginWithRedirect()}*/>Login</Login>
            </Nav>
 )}
 

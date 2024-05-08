@@ -115,7 +115,7 @@ vertical-align:bottom;
 width:700px;
 `;
 
-function LoginForm() {
+function Login() {
     return(
 <Container>
     <Content>
@@ -138,4 +138,4 @@ function LoginForm() {
 
 
 
-export default LoginForm;
+export default Login;

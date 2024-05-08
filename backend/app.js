@@ -12,7 +12,7 @@ const app= express();
 app.use(cors());
 app.use(bodyparser.json());
 app.use(routes);
-const port =3000;
+const port =5000;
 
 
 
